@@ -8,4 +8,12 @@
   --color-black: #000000;
   --color-white: #FFFFFF;
   --color-grey: #B3ADA5;
+
+  --xs: 12px;
+  --s: 18px;
+  --m: 24px;
+  --l: 36px;
+  --xl: 42px;
+  --xxl: 54px;
+  --xxxl: 72px;
 }

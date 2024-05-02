@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+header{
+    padding-left: var(--s);
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-purple);
+    color: var(--color-white);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: var(--s);
+    margin-right: var(--s);
+}

@@ -1,0 +1,74 @@
+.slideshow{
+    display: flex;
+    margin: var(--m) var(--s) var(--m) var(--s);
+    img{
+        width: 60%;
+    }
+    background-color: green;
+    color: var(--color-white);
+    div{
+        margin: 5px;
+    }
+    border-radius: 5px;
+}
+
+.operationList{
+    margin-left: var(--s);
+    margin-right: var(--s);
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-button{
+    display: flex;
+    align-items: center;
+}
+
+.navigatorbar{
+    background-color: var(--color-purple);
+    padding-left: var(--s);
+    padding-right: var(--s);
+    color: var(--color-white);
+    display: flex;
+    justify-content: space-between;
+    font-size: smaller;
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.tabelleOderListe {
+    width: 100%;
+    font-size: smaller;
+    display: flex;
+    justify-content: center;
+    margin: var(--s);
+    tr{
+        display: flex;
+        width: 100%;
+    }
+    td{
+        width: 100%;
+    }
+    img {
+        width: 50px; /* Größe des Bildes anpassen */
+        height: 50px;
+        scale: 0.5;
+    }
+    li{
+        display: flex;
+        align-items: center;
+        color: var(--color-white);
+        background-color: var(--color-orange);
+        
+    }
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 10px; /* Abstand zwischen den Elementen */
+    }
+}
